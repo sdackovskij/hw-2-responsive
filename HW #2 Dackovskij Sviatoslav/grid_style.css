@@ -1,0 +1,111 @@
+.page {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.page_bg-cover_forest {
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
+    min-height: 400px;
+    min-width: 600px;
+}
+
+.box_grid {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.box__text, .forecast-day__weekday, .forecast-day__temperature {
+    font-size: 16px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
+.forecast-day__temperature:after{ content: "\00b0" }
+
+.box__text:after{ content: "\00b0" }
+
+.box__picture_position_center {
+    display: grid;
+    justify-content: center;
+    align-self: end;
+}
+
+.box__main-forecast-picture   {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__forecast-list {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.box__main-forecast-picture_bg-color {
+    background-color: #dc3d66;
+    height: 50%;
+}
+
+.box__forecast-list_bg-color {
+    background-color: #af3152;
+    height: 50%;
+}
+
+.forecast-day {
+    display: grid;
+    grid-template-rows: 40% 33.33333333333% 26.66666666666%;
+    justify-items: center;
+    align-items: center;
+}
+
+.forecast-day_size {
+    height: 75%;
+    width: 40%;
+}
+
+.forecast-day__icon_size {
+    height: 100%;
+    max-height: 25px;
+}
+
+.forecast-day__weekday_fontsize, .forecast-day__temperature_fontsize {
+    font-size: 12px;
+}
+
+
+.box_color_first {
+    background-color: #06b3db;
+}
+
+.box_color_second {
+    background-color: #4ed486;
+}
+
+.box_color_third {
+    background-color: #6139f6;
+}
+
+.box_color_fourth {
+    background-color: #e3b63d;
+}
+
+.box_color_fifth {
+    background-color: #bd54cd;
+}
+
