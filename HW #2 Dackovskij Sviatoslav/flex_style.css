@@ -126,209 +126,61 @@
 
 }
 
-@media screen and  (max-height: 430px)
-    and (max-width: 830px)  and (orientation: landscape) {
-    .container {
-        max-height: 360px;
-        max-width: 540px;
-    }
-    .box_resize {
-        height: 180px;
-        width: 180px;
-    }
-
-}
-
-@media screen and (max-height: 500px)
-and (max-width: 680px) and (orientation: landscape) {
-    .container {
-        max-height: 300px;
-        max-width: 450px;
-    }
-    .box_resize {
-        height: 150px;
-        width: 150px;
-    }
-
-    .box__text_resize {
-        font-size: 75%;
-
-    }
-
-    .forecast-day__weekday_fontsize, .forecast-day__temperature_fontsize {
-        font-size: 65%;
-    }
-
-    .forecast-day__image_resize, .box__image_resize {
-        max-width: 85%;
-        max-height: 85%;
-    }
-
-}
-
-@media screen and (max-height: 400px)
-    and (max-width: 500px) and (orientation: landscape){
-    .container {
-        max-height: 240px;
-        max-width: 360px;
-    }
-    .box_resize {
-        height: 120px;
-        width: 120px;
-    }
-
-    .box__text_resize {
-        font-size: 75%;
-
-    }
-
-    .forecast-day__weekday_fontsize, .forecast-day__temperature_fontsize {
-        font-size: 50%;
-    }
-
-    .forecast-day__image_resize, .box__image_resize {
-        max-width: 85%;
-        max-height: 85%;
-    }
-
-}
-
-@media screen and (max-height: 280px)
-and (max-width: 600px) and (orientation: landscape) {
-    .container {
-        max-height: 180px;
-        max-width: 270px;
-    }
-    .box_resize {
-        height: 90px;
-        width: 90px;
-    }
-
-    .box__text_resize {
-        font-size: 60%;
-    }
-
-    .forecast-day__weekday_fontsize, .forecast-day__temperature_fontsize {
-        font-size: 25%;
-    }
-
-    .forecast-day__image_resize, .box__image_resize {
-        max-width: 85%;
-        max-height: 85%;
-    }
-
-}
-@media screen and (max-height: 200px) and (orientation: landscape) {
-    .container {
-        max-height: 90px;
-        max-width: 540px;
-    }
-    .box_resize {
-        height: 90px;
-        width: 90px;
-    }
-
-    .box__text_resize {
-        font-size: 60%;
-    }
-
-    .forecast-day__weekday_fontsize, .forecast-day__temperature_fontsize {
-        font-size: 25%;
-    }
-
-    .forecast-day__image_resize, .box__image_resize {
-        max-width: 85%;
-        max-height: 85%;
-    }
-
-}
-/*media query for portrait orientation*/
-
-@media screen and (max-width: 800px) and (orientation: portrait) {
-    .container {
-        max-height: 570px;
-        max-width: 380px;
-    }
-    .box_resize {
-        height: 190px;
-        width: 190px;
-    }
-
-}
-
 @media screen and (max-width: 650px) and (orientation: portrait) {
     .container {
         max-height: 450px;
         max-width: 300px;
     }
+
     .box_resize {
-        height: 150px;
         width: 150px;
-    }
-
-    .box__text_resize {
-        font-size: 75%;
-
-    }
-
-    .forecast-day__weekday_fontsize, .forecast-day__temperature_fontsize {
-        font-size: 65%;
-    }
-
-    .forecast-day__image_resize, .box__image_resize {
-        max-width: 85%;
-        max-height: 85%;
-    }
-
-}
-
-@media screen and (max-width: 350px) and (orientation: portrait) {
-    .container {
-        max-height: 360px;
-        max-width: 240px;
-    }
-    .box_resize {
-        height: 120px;
-        width: 120px;
+        height: 150px;
     }
 
     .box__text_resize {
         font-size: 75%;
     }
 
-    .forecast-day__weekday_fontsize, .forecast-day__temperature_fontsize {
-        font-size: 50%;
+
+    .box__image_resize {
+        max-width: 65px;
     }
 
-    .forecast-day__image_resize, .box__image_resize {
-        max-width: 85%;
-        max-height: 85%;
+    .forecast-day__image_resize {
+        max-width: 17px;
     }
 
+    .box__image_grid-ie-resize {
+        max-width: 45px;
+    }
 }
 
-@media screen and (max-width: 260px) and (orientation: portrait) {
+@media screen and (max-height: 450px) and (orientation: landscape) {
     .container {
-        max-height: 540px;
-        max-width: 90px;
+        max-height: 300px;
+        max-width: 450px;
     }
     .box_resize {
-        height: 90px;
-        width: 90px;
+        width: 150px;
+        height: 150px;
     }
 
     .box__text_resize {
-        font-size: 60%;
+        font-size: 75%;
     }
 
-    .forecast-day__weekday_fontsize, .forecast-day__temperature_fontsize {
-        font-size: 25%;
+
+    .box__image_resize {
+        max-width: 65px;
     }
 
-    .forecast-day__image_resize, .box__image_resize {
-        max-width: 85%;
-        max-height: 85%;
+    .forecast-day__image_resize {
+        max-width: 17px;
     }
 
+    .box__image_grid-ie-resize {
+        max-width: 45px;
+    }
 }
+
 
